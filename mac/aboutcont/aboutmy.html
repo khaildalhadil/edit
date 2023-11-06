@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>About.My</title>
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+
+        body {
+            position: relative;
+            background: #f7e9e8;
+        }
+
+        .content_nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 150px;
+            background: white;
+        }
+
+
+        .main-text {
+            margin: 30px;
+            font-size: 35px;
+            color: black;
+            font-weight: 550;
+            border-top: solid red 5px;
+            border-bottom: solid black 5px;
+            border-left: solid blue 5px;
+            border-right: solid yellow 5px;
+            padding: 10px 25px;
+            background: black;
+            color: white;
+            animation: name 1s infinite;
+        }
+
+        @keyframes name {
+            0% {
+                box-shadow: 1px 1px 20px red;
+            }
+
+            25% {
+                box-shadow: 1px 1px 20px yellow;
+            }
+
+            50% {
+                box-shadow: 1px 1px 20px blue;
+            }
+
+            75% {
+                box-shadow: 1px 1px 20px green;
+            }
+
+            100% {
+                box-shadow: 1px 1px 20px black;
+            }
+        }
+
+        .link {
+            margin: 30px;
+            transition: 0.5s ease-in-out;
+            display: inline-block;
+            text-decoration: none;
+            font-size: 25px;
+            font-weight: 600;
+            color: rgb(255, 0, 115);
+            background: rgba(255, 106, 173, 0.187);
+            border: rgb(255, 0, 115) solid 5px;
+            border-radius: 5px;
+            padding: 10px 25px;
+            box-shadow: 1px 3px 4px red;
+        }
+
+        .link1:hover {
+            background: red;
+            color: black;
+            transform: translateY(2px);
+            box-shadow: 1px 1px 2px red;
+        }
+
+        .link2:hover {
+            background: red;
+            color: black;
+            transform: translateY(-1px);
+            box-shadow: 1px 4px 10px red;
+        }
+
+        .bodycontent {
+            background: #f7e9e8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 85vh;
+            gap: 231px;
+        }
+
+        img {
+            order: 1;
+            height: 500px;
+            border-radius: 50%;
+            margin-bottom: 40px;
+        }
+
+        .h1_p {
+            width: 700px;
+            margin-bottom: 100px;
+            position: relative;
+            margin-right: 100px;
+        }
+
+        h1 {
+            font-size: 70px;
+            line-height: -15px;
+            font-weight: 400
+        }
+
+        h1::before {
+            content: "HELLO";
+            color: #444;
+            font-size: 30px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 25px;
+            color: #5c5b5b;
+        }
+
+        span {
+            font-weight: 600
+        }
+
+        .ancar > * {
+            font-size: 40px;
+            margin-right: 40px;
+            transition: 2s linear;
+        }
+
+        .h1_p > a:hover {
+            transform: rotateX(60deg)
+        }
+
+        .you {
+            color: red;
+        }
+
+        .lin {
+            color: #0867c2;
+        }
+
+        .git {
+            color: black;
+        }
+
+        .ins {
+            color: #bf1f93;
+        }
+
+        @media (max-width: 1884px) {
+            .bodycontent {
+                margin-left: 180px;
+            }
+        }
+
+        @media (max-width: 1660px) {
+            img {
+                height: 400px;
+                margin-right: 100px;
+            }
+        }
+
+        @media (max-width: 1368px) {
+            .bodycontent {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 100px;
+            }
+        }
+
+        @media (max-width: 1241px) {
+            h1 {
+                font-size: 50px;  
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="content_nav">
+        <p class="main-text">Wellcome</p>
+        <nav>
+            <a class="link link1" href="../Default.aspx">Home</a>
+            <a class="link link2" href="contact.html">ContactMy</a>
+        </nav>
+    </div>
+    <div class="bodycontent">
+        <img src="../img2/khaild4x4.png">
+        <div class="h1_p">
+            <h1>I'm <span>Khaild</span> <br><span>a </span>Gamers🎮</h1>
+            <p>Welcome to my website! l'm Khalid,Youterper and Gamer yes I don't have anything to sea yes I'm good student I try to be Web Developer because I like What i'm doing thinks! </p>
+            <a class="ancar you" href="https://www.youtube.com/@user-om7lu5bx9y"><i class="fa fa-youtube"></i></a>
+            <a class="ancar ins" href="https://www.instagram.com/kk_lold/"><i class="fa fa-instagram"></i></a>
+            <a class="ancar git" href="https://github.com/khaildalhadil"><i class="fa fa-github"></i></a>
+            <a class="ancar lin" href="https://www.linkedin.com/in/khaild-alhadi-87375b280/"><i class="fa fa-linkedin"></i></a>
+        </div>
+    
+    
+    </div>
+</body>
+</html>

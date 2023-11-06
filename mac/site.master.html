@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Default</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=DynaPuff:wght@600&family=Indie+Flower&family=Kablammo&family=Merriweather:wght@300&family=Nosifer&family=Permanent+Marker&family=Playpen+Sans:wght@200;800&family=Roboto+Slab:wght@600&family=Tajawal:wght@200&display=swap" rel="stylesheet">
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;   
+        position: relative;
+        background: #f8f8f8;
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .main {
+        display: flex;
+        justify-content: start;
+        background: rgba(252,237,122,15);
+        width: 100%;
+    }
+
+    nav {
+        margin-top: 50px;
+        margin-right: 450px;
+    }
+
+    .main > img {
+        height: 120px;
+        order: 1;
+    }
+
+    a {
+        font-size: 25px;
+        color: black;
+        background: rgba(252,237,122,15);
+        padding: 20px 25px;
+        border-radius: 5px;
+        transition: 0.5s; 
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+
+    a:hover {
+        background: #242424;
+        text-decoration: none;
+        color: white;
+    }
+
+    .a_1 {
+        margin: 30px;    
+    }
+
+    .body_content {
+        margin-top: 100px;
+        margin-left: 130px;
+        display: grid;
+        grid-template-columns: 700px 700px 600px;
+    }
+
+    .body_img {
+        width: 500px;
+        height: 600px;
+    }
+
+    .body_content > p {
+        margin-top: 90px;
+        margin-bottom: 0px;
+        font-size: 120px;
+        font-family: Caveat;
+        font-weight: 900;
+
+    }
+
+    .small {
+        width:100px;
+        position: absolute;
+        top: 300px;
+        left: 1000px;
+    }
+
+    .kh {
+        color: deeppink
+    }
+
+    .kh:hover {
+        color: black;
+    }
+
+    .spong {
+        color: gold;
+    }
+
+    .bgy {
+        position: absolute;
+        top: 340px;
+        left: 1200px;
+        height: 120px;
+        z-index: -1;
+    }
+
+    .bgp {
+        position: absolute;
+        top: 640px;
+        left: 730px;
+        height: 130px;
+        width: 800px;
+        z-index: -1;
+    }
+
+    .plon {
+        position: absolute;
+        top: 100px;
+        left: 10px;
+        height: 300px;
+        transform: rotateY(160deg)
+    }
+
+    .gndil {
+        position: absolute;
+        top: 200px;
+        left: 600px;
+        height: 100px;
+        transition: 9.1s ease-in-out;
+    }
+
+    .gndil:hover {
+        transform: translateY(-950px)
+    }
+
+    .gndil2 {
+        position: absolute;
+        top: 400px;
+        left: 700px;
+        height: 100px;
+        transition: 9.1s ease-in-out;
+    }
+
+    .gndil3 {
+        position: absolute;
+        top: 200px;
+        left: 1000px;
+        height: 100px;
+        transition: 9.1s ease-in-out;
+    }
+
+    .gndil:hover {
+        transform: translateY(-950px)
+    }
+
+    .gndil2:hover {
+        transform: translateY(-950px)
+    }
+
+    .gndil3:hover {
+        transform: translateY(-950px)
+    }
+
+    .fri {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        height: 100px;
+        transition: 9.1s ease-in-out;
+    }
+
+    .fri:hover {
+        transform: translate(1550px)
+    }
+
+    @media (max-width: 1760px) {
+        .body_img {
+            height: 500px;
+            width: 400px;
+            position: relative;
+            top: 130px;
+        }
+
+        p {
+            margin-right: 100px;
+        }
+
+        .bgy {
+            position: absolute;
+            top: 480px;
+            left: 800px;
+        }
+
+        .bgp {
+            position: absolute;
+            top: 800px;
+        }
+
+
+    }
+</style>
+</head>
+<body>
+<div class="main">
+    <img src="https://i.pinimg.com/236x/49/6e/a9/496ea99942eea8bade5516a5f88ee54d.jpg"/>
+    <nav>
+        <a class="a_1" href="aboutcont/contact.html">contactMy</a>
+        <a class="a_2" href="aboutcont/aboutmy.html">AboutMy</a>
+    </nav>
+</div>
+<div class="body_content">
+    <img class="body_img" src="https://i.pinimg.com/736x/f6/8c/76/f68c76513a8fc3bdd7461dc555456eea.jpg"/>
+    <p>Hello I'm <span class="kh">Khalid</span> and My friend <span class="spong">SpongeBob</span></p>
+</div>
+<div class="contect_img">
+    <img class="bgy" src="img2/img.background2.png"/>
+    <img class="bgp" src="img2/bgp.png"/>
+    <!--<img class="tree" src="img2/tree.png"/>-->
+    <!--<img src="img2/fri.png"/>-->
+    <img class="plon" src="img2/plon.png"/>
+    <img class="gndil" src="img2/gndil.png"/>
+    <img class="gndil2" src="img2/gndil.png"/>
+    <img class="gndil3" src="img2/gndil.png"/>
+    <img class="fri" src="img2/friendnew.png"/>
+</div>
+</body>
+</html>
